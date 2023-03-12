@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bb55b0d4da8ee34f962c141db54dc25, type: 3}
+  m_Name: MetalSocksSpot
+  m_EditorClassIdentifier: 
+  ResourceNeeded: {fileID: 1708997245233648523, guid: 36a468d60bbae4443bd15e6e400c680d, type: 3}
+  ResourceProduce: {fileID: 1708997245233648523, guid: aaacaf3effe3afe4ebae624e3273464c, type: 3}
+  ProductionTime: 5
+  NeededCount: 5
+  ProduceCount: 25
+  FlyOutPhysics: {fileID: 11400000, guid: b4796dc574c6a5244ba48d53bea14a0e, type: 2}

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7f707799438164478a592840152d384, type: 3}
+  m_Name: GameData
+  m_EditorClassIdentifier: 
+  ResourceSettings:
+    ScatterRadius: 1
+    FlyDelay: 0.5
+    FlyTime: 0.5
+    FlyHeight: 1
+    UnpickupableTime: 1
+    FlyOutSpotForce: 1
+    FlyOutCharacterForce: 1
+  PlayerSettings:
+    WalkingSpeed: 10
+    CollectRadius: 2
+    FlyOutPhysics: {fileID: 11400000, guid: 90c513f11820ea846ab53428eb0059fc, type: 2}
+    MinPickupSpeed: 1
+  TutorialSettings:
+    TurnOffDistance: 5
+  AutoSaveTime: 120
